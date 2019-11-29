@@ -4,12 +4,9 @@
 ![coby screenshot](screenshot.jpg)
 
 ### Explore the app
-<link to go here>
+https://stormy-chamber-71728.herokuapp.com/
 
 ## Concept
-<concept here>
-
-## Users
 Coby is a safe platform for those of any age who want to meet new people while looking for a night out on the town. Whether you're new to a city or just want to expland your network of friends. 
 
 Firstly, users will use the Coby platform to find events they're interested in around their selected town. From there they will be greeted with other like-minded 'buddies' who are also looking for others to go out with. Coby will then allow you to send an email to that buddy to plan the night ahead.
@@ -24,6 +21,7 @@ Firstly, users will use the Coby platform to find events they're interested in a
 * Heroku
 * SASS
 * HTTParty
+* Postgresql
 
 ## Challenges
 * There are many, many moving parts with many, many details to consider when building functionality.
@@ -33,6 +31,8 @@ Firstly, users will use the Coby platform to find events they're interested in a
 ### Git Collaboration
 You all know what we're talking about...
 
+### Documentation
+Not all documentation is easy to ready yet understand
 
 ### Conventions
 After completing this project we realised the importance of deciding on naming conventions
@@ -42,6 +42,8 @@ After completing this project we realised the importance of deciding on naming c
 * Don't wait around till components are built by other team mates
 * Plan your project carefully at the start.
 * Stay within an achieveable scope!
+* Don't have to understand documentation reference fully
+* Define features clearly
 
 ## WIP
 * Messaging App
