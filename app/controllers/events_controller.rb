@@ -9,8 +9,11 @@ class EventsController < ApplicationController
         show_event(params[:id])
         show_posts(params[:id])
         show_inactive_posts(params[:id])
+        # raise 'sdfsdf'
 
-        # Post.find_by(event_id: params)
+        @event_id = Event.get_event(params[:id])
+        @active_posts = Post.active_posts(@event_id)
+        @user_names = User.active_posts(@event_id).pluck(:first_name)        
         render :details
     end
 
@@ -61,7 +64,6 @@ class EventsController < ApplicationController
         @event_id = Event.get_event(params[:id])
         @active_posts = Post.active_posts(@event_id)
         @user_names = User.active_posts(@event_id).pluck(:first_name)
-        
     end
 
     def show_inactive_posts (id)
