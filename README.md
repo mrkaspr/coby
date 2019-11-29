@@ -9,7 +9,7 @@ https://stormy-chamber-71728.herokuapp.com/
 ## Concept
 Coby is a safe platform for those of any age who want to meet new people while looking for a night out on the town. Whether you're new to a city or just want to expland your network of friends. 
 
-Firstly, users will use the Coby platform to find events they're interested in around their selected town. From there they will be greeted with other like-minded 'buddies' who are also looking for others to go out with. Coby will then allow you to send a direct message* to that buddy to plan the night ahead.
+Firstly, users will use the Coby platform to find events they're interested in around their selected town. From there they will be greeted with other like-minded 'buddies' who are also looking for others to go out with. Coby will then allow you to send an email to that buddy to plan the night ahead.
 
 ## Technology & Concepts used
 * Ruby on Rails
@@ -24,6 +24,10 @@ Firstly, users will use the Coby platform to find events they're interested in a
 * Postgresql
 
 ## Challenges
+* There are many, many moving parts with many, many details to consider when building functionality.
+* Learning Rails on the fly! Rails is a big step up from Sinatra.
+
+
 ### Git Collaboration
 You all know what we're talking about...
 
